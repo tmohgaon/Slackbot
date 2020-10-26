@@ -1,0 +1,40 @@
+{
+  "text": "Hello! I am Custom AMS Bot. Which sub-practice would you be interested in?",
+  "fallback": "Upgrade your Slack client to use messages like these.",
+  "color": "#3AA3E3",
+  "attachment_type": "default",
+  "callback_id": "subjects",
+  "actions": [
+    {
+      "name": "subject_list",
+      "text": "Select one",
+      "type": "select",
+      "options": [
+        {
+          "text": "Enterprise Integration",
+          "value": "eai"
+        },
+        {
+          "text": "DBMS",
+          "value": "dbms"
+        },
+        {
+          "text": "Java & Webtech",
+          "value": "java"
+        },
+        {
+          "text": "Mainframe",
+          "value": "mainframe"
+        },
+	{
+          "text": "Open Systems",
+          "value": "os"
+        },
+	{
+          "text": "PM & Transition",
+          "value": "pmt"
+        }
+      ]
+    }
+  ]
+}
